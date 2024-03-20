@@ -1,7 +1,7 @@
 
 package com.mycompany.restaurante.people;
 
-import values.UserTypes;
+import com.mycompany.restaurante.values.UserTypes;
 
 public class User {
     private UserTypes type;

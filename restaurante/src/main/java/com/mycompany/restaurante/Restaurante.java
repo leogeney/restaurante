@@ -4,8 +4,12 @@
 
 package com.mycompany.restaurante;
 
+import com.mycompany.restaurante.foods.Dish;
+import com.mycompany.restaurante.foods.Menu;
 import com.mycompany.restaurante.people.User;
-import values.UserTypes;
+import com.mycompany.restaurante.values.DishTypes;
+import com.mycompany.restaurante.values.DishVariation;
+import com.mycompany.restaurante.values.UserTypes;
 
 /**
  *
@@ -16,5 +20,20 @@ public class Restaurante {
     public static void main(String[] args) {
         User student = new User(UserTypes.STUDENT,"Fulanito","1234");
         student.sell();
+        
+        
+        
+        Menu menu = new Menu();
+        Dish dish1 = new Dish("huevos pericos  ", DishTypes.BREAKFAST,20,2400,DishVariation);
+        Dish dish2 = new Dish("arepa ", DishTypes.BREAKFAST,20,2400,DishVariation);
+        Dish dish3 = new Dish("arroz chinese ", DishTypes.LUNCH,20,2400,DishVariation);
+
+                menu.addDish(dish1);
+                menu.addDish(dish2);
+                menu.addDish(dish3);
+
+                
+                
+        
     }
 }

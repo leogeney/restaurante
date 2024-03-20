@@ -1,6 +1,6 @@
-values\DishTypes.class
-values\DishVariation.class
 com\mycompany\restaurante\people\User.class
-com\mycompany\restaurante\Restaurante.class
-foods\Dish.class
-values\UserTypes.class
+com\mycompany\restaurante\foods\Dish.class
+com\mycompany\restaurante\values\DishTypes.class
+com\mycompany\restaurante\values\UserTypes.class
+com\mycompany\restaurante\foods\Menu.class
+com\mycompany\restaurante\values\DishVariation.class
